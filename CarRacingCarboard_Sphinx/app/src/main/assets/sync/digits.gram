@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = destined   |
+          sinister |
+          left  |
+          right |
+          okay  |
+          home  ;
+
+public <digits> = <digit>+;
